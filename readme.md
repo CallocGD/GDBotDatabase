@@ -1,4 +1,4 @@
-# Geometry bot Database
+# Geometry Dash bot Database
 
 A Simple Database script made with SQLModel/sqlalchemy for controlling a very big problem with modern gd bots.
 
