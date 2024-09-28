@@ -28,7 +28,7 @@ def generate_chk(value:bytes, key:bytes, salt:bytes):
     return xor_encode(hashlib.sha1(value + salt).hexdigest().encode(), key)
 
 # NOTE: Defaults are set for uploadAccComment which is the profile comment, 
-# to change the id param should not zero and comment type should be set to "1"
+# to change the id param should not be "0" and comment type should be set to "1"
 def comment_chk(
     username: str,
     content: str,
