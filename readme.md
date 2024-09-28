@@ -27,3 +27,9 @@ async def on_account_registered(name:str, password:str, accountID:int):
     await db.new_bot_account(name, password, accountID)
 
 ```
+
+## Eldermods
+I am not responsible for any damages caused by this code. You can blame the countless people who have admitted to how much they love my code and shit I produce.
+
+
+
